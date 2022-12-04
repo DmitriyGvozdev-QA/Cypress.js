@@ -30,7 +30,7 @@ describe('Проверка заказа демо-комплекта Nord Max', f
    cy.get('.b24-form-field-email > :nth-child(1) > :nth-child(1) > .b24-form-control-container > .b24-form-control').type('rtyeu@mail.ru');
 
    cy.get('form > .b24-form-btn-container > .b24-form-btn-block > .b24-form-btn').should('not.be.disabled');
-   
+   cy.get('form > .b24-form-btn-container > .b24-form-btn-block > .b24-form-btn').click();
 
    
    
